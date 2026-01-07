@@ -19,8 +19,11 @@ type Person struct {
 }
 
 func MyBiodata() Person {
+	human := Person{}
+	human.FirstName = "Jokowi"
+
 	return Person{
-		FirstName:  DefaultFirstName,
+		FirstName:  human.FirstName,
 		LastName:   DefaultLastName,
 		Age:        DefaultAge,
 		Address:    DefaultAddress,
