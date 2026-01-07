@@ -35,4 +35,8 @@ func main() {
 	thisIsSlice()
 	sliceFromArray()
 	thisIsMapMethod()
+	// struct
+	CreateStruct()
+	// method
+	PerkenalanMhs()
 }
