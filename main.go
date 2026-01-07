@@ -39,4 +39,6 @@ func main() {
 	CreateStruct()
 	// method
 	PerkenalanMhs()
+	// interface
+	InterfaceDemo()
 }
