@@ -19,4 +19,20 @@ func main() {
 	fmt.Println(ConstantaVariable())
 	// constanta multipe variable
 	fmt.Println(MyBiodata().FirstName)
+	// operator
+	OperatorAritmatika()
+	OperatorPerbandingan()
+	OperatorLogika()
+	// control flow
+	StrukturKondisional()
+	StrukturKondisionalSwitch("senin")
+	StrukturPerulangan(100)
+	StrukturPerulanganRange()
+	// Pointer
+	UbahAngkaPointer()
+	//  Array Method
+	thisIsArray()
+	thisIsSlice()
+	sliceFromArray()
+	thisIsMapMethod()
 }
